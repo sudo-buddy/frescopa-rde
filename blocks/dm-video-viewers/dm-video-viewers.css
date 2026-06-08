@@ -1,0 +1,19 @@
+.dm-video-viewers.block {
+  display: block;
+}
+
+.dm-video-viewers .dm-viewer-stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dm-video-viewers .dm-viewer-stage > div {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+}

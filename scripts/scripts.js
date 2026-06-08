@@ -397,6 +397,10 @@ async function loadLazy(doc) {
       addSidekickListeners(document.querySelector('aem-sidekick'));
     }, { once: true });
   }
+
+  if (window.location.hostname.endsWith('.aem.page') || window.location.hostname === 'localhost') {
+    await import('./editor-support.js');
+  }
 }
 
 /**

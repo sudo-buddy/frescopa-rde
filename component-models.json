@@ -361,6 +361,40 @@
     ]
   },
   {
+    "id": "dm-scene7-template",
+    "fields": [
+      {
+        "component": "text",
+        "name": "image",
+        "label": "Scene7 template URL",
+        "description": "Paste the full Dynamic Media image template URL (…/is/image/…?…). Use this text field (not custom-asset) if the site rewrites Scene7 links before block JS runs. Approach B, not mediabus.",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "dm-video-viewers",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "viewerUrl",
+        "label": "Scene7 viewer URL",
+        "description": "Paste the full Scene7 viewer URL (e.g. …/s7viewers/html5/SmartCropVideoViewer.html?asset=…). http is used automatically.",
+        "required": true,
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "dm-video",
     "fields": [
       {
@@ -376,26 +410,6 @@
         "name": "videoUrl",
         "label": "DM video URL (/play player or direct .mp4)",
         "required": true
-      }
-    ]
-  },
-  {
-    "id": "dm-scene7-template",
-    "fields": [
-      {
-        "component": "text",
-        "name": "image",
-        "label": "Scene7 template URL",
-        "description": "Paste the full Dynamic Media image template URL (…/is/image/…?…). ",
-        "valueType": "string",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
       }
     ]
   },

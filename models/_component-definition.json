@@ -83,6 +83,9 @@
           "...": "../blocks/dm-scene7-template/_*.json#/definitions"
         },
         {
+          "...": "../blocks/dm-video-viewers/_*.json#/definitions"
+        },
+        {
           "...": "../blocks/sticky-cta/_*.json#/definitions"
         }
       ]
