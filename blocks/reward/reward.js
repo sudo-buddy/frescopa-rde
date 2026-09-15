@@ -14,4 +14,8 @@ export default async function decorate(block) {
       </div>
   </div>
 `;
+
+  // SITES-47534 spike only: hand-stamped mbox for the variant-swap proof-of-concept.
+  // Not a production authoring mechanism — see slice-01 deviation log.
+  block.dataset.mbox = 'offer-mgmt-spike-reward-test';
 }
